@@ -1,0 +1,35 @@
+# Ignore npm dependencies
+node_modules/
+
+# Ignore npm package lock files
+package-lock.json
+yarn.lock
+
+# Ignore build artifacts
+dist/
+build/
+out/
+
+# Ignore development environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.sublime-*
+*.swp
+*.swo
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore testing and coverage reports
+coverage/
+.nyc_output/
+
+# Ignore miscellaneous files
+.DS_Store
+Thumbs.db
